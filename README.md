@@ -4,12 +4,12 @@ Simple Lightweight Console Style Logs.
 
 ## Installation
 ```
-$ npm install pwnx-console --save
+$ npm install pwnx-console.styles --save
 ```
 
 ## Usage
 ```javascript
-let $console = require('pwnx-console');
+let $console = require('pwnx-console.styles');
 a = 'qianzhixiang';
 b = 'jianghuihui';
 $console.log(a, b);
