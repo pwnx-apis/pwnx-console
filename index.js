@@ -8,7 +8,7 @@ const consoleMessageTypes = [
     '\x1b[35m',
     '\x1b[36m',
     '\x1b[37m'
-];
+]; 
 
 // Log
 const log = type => {
