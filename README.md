@@ -10,8 +10,8 @@ $ npm install pwnx-console.styles --save
 ## Usage
 ```javascript
 let $console = require('pwnx-console.styles');
-a = 'qianzhixiang';
-b = 'jianghuihui';
+a = 'Hello';
+b = 'World!';
 $console.log(a, b);
 $console.log('This is a LOG message');
 $console.debug('This is a DEBUG message');
