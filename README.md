@@ -7,7 +7,7 @@ Simple Lightweight Console Style Logs.
 $ npm install pwnx-console --save
 ```
 
-## Usuage
+## Usage
 ```javascript
 let $console = require('pwnx-console');
 a = 'qianzhixiang';
