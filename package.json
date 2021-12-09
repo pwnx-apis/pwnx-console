@@ -1,1 +1,24 @@
-
+{
+    "name": "pwnx-console",
+    "version": "1.1.0",
+    "description": "Simple Lightweight Console Style Logs",
+    "main": "index.js",
+    "engines": {
+        "node": ">=6.4.0"
+    },
+    "scripts": {
+        "test": "node test",
+        "start": "node index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pwnx-apis/pwnx-console.git"
+    },
+    "keywords": ["console", "color", "logger", "style", "logs"],
+    "author": "Jester515-Dev",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pwnx-apis/pwnx-console/issues"
+    },
+    "homepage": "https://github.com/pwnx-apis/pwnx-console#readme"
+}
