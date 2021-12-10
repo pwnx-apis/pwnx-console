@@ -9,16 +9,16 @@ $ npm install pwnx-console.styles --save
 
 ## Usage
 ```javascript
-let $console = require('pwnx-console.styles');
+let styles = require('pwnx-console.styles');
 a = 'Hello';
 b = 'World!';
-$console.log(a, b);
-$console.log('This is a LOG message');
-$console.debug('This is a DEBUG message');
-$console.error('This is a ERROR message');
-$console.warn('This is a WARN message');
-$console.stress('This is a STRESS message');
-$console.success('This is a SUCCESS message');
+styles.log(a, b);
+styles.log('This is a LOG message');
+styles.debug('This is a DEBUG message');
+styles.error('This is a ERROR message');
+styles.warn('This is a WARN message');
+styles.stress('This is a STRESS message');
+styles.success('This is a SUCCESS message');
 
 ```
 ## License
