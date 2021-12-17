@@ -9,8 +9,10 @@ const consoleMessageTypes = [
     '\x1b[35m',
     '\x1b[36m',
     '\x1b[37m',
+    
     // Colors
-    '\x1b[31m'
+    '\x1b[31m',
+    '\x1b[34m'
 ];
 const log = type => {
     return (...args) => {
@@ -38,5 +40,6 @@ module.exports = {
     success: log(2),
     stress: log(5),
 
-    red: log(8)
+    red: log(8),
+    blue: log(9)
 };
