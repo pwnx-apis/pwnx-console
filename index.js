@@ -1,5 +1,6 @@
-// Message Types
+// The Function
 const consoleMessageTypes = [
+    // Types
     '\x1b[30m',
     '\x1b[31m',
     '\x1b[32m',
@@ -7,10 +8,10 @@ const consoleMessageTypes = [
     '\x1b[34m',
     '\x1b[35m',
     '\x1b[36m',
-    '\x1b[37m'
-]; 
-
-// Log
+    '\x1b[37m',
+    // Colors
+    '\x1b[31m'
+];
 const log = type => {
     return (...args) => {
         let outputArg = '';
@@ -27,6 +28,7 @@ const log = type => {
     };
 };
 
+
 // Exports
 module.exports = {
     warn: log(3),
@@ -34,5 +36,7 @@ module.exports = {
     log: log(7),
     debug: log(6),
     success: log(2),
-    stress: log(5)
+    stress: log(5),
+
+    red: log(8)
 };
