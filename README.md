@@ -26,6 +26,7 @@ styles.stress('This is a STRESS message');
 styles.success('This is a SUCCESS message');
 
 styles.red('This is a RED colored message');
+styles.blue('This is a BLUE colored message');
 
 ```
 ## License
